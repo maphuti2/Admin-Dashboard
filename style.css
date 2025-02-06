@@ -28,12 +28,6 @@ body{
     height: 100vh;
 }
 
-.header{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    background-color: #fff;
-}
-
 .first-sidebar{
     display: flex;
     align-items: center;
@@ -50,5 +44,12 @@ ul li{
     gap: 10px;
     text-transform: capitalize;
     margin: 0.8em;
+    cursor: pointer;
 }
 
+.header{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: #fff;
+    height: 15vh;
+}
