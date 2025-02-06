@@ -1,4 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
-    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(196, 193, 193);
+}
+
+.dashboard{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.sidebar{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color:dodgerblue;
+}
+
+.header{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: #fff;
+}
