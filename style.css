@@ -14,6 +14,7 @@ body{
 .dashboard{
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: 19% 1fr;
 }
 
 .sidebar{
@@ -58,7 +59,6 @@ a{
     grid-column-start: 2;
     grid-column-end: 4;
     background-color: #fff;
-    height: 20vh;
     padding: .6em 0;
     color: #202020;
 }
@@ -78,6 +78,10 @@ a{
     width: clamp(15px, 100%, 70%);
     align-items: center;
     cursor: pointer;
+}
+
+.search-bar{
+    margin-bottom: 12px;
 }
 
 .search input{
@@ -122,3 +126,58 @@ a{
     height: 30px;
 }
 
+.main-content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.activity{
+    display: grid;
+    grid-template-rows: 25px 5fr;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-items{
+    background-color: rgb(255, 187, 0);
+    margin: .8em;
+    border-radius: 12px;
+}
+
+.ci{
+    margin-left: 12px;
+    background-color: #eee;
+    height: 100%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: .8em;
+}
+
+.main-title, .title{
+    font-weight: bold;
+
+}
+
+.activity .main-title{
+    margin-left: 1.2em;
+    margin-top: .5em;
+    font-size: 1.2rem;
+}
+
+.info{
+    margin-top: .8em;
+    font-size: .9rem;
+}
+
+.c-icon{
+    display: flex;
+    justify-content: right;
+    margin: .8em;
+    gap: 12px;
+    cursor: pointer;
+}
