@@ -14,7 +14,7 @@ body{
 .dashboard{
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
-    grid-template-rows: 19% 1fr;
+    grid-template-rows: 19vh 1fr;
 }
 
 .sidebar{
@@ -26,7 +26,7 @@ body{
     font-size: 1.2em;
     display: grid;
     gap: 20px;
-    height: 100%;
+    height: 100vh;
 }
 
 .first-sidebar{
@@ -128,7 +128,7 @@ a{
 
 .main-content{
     display: grid;
-    grid-template-columns: 3fr 200px;
+    grid-template-columns: 3fr 1fr;
     grid-column-start: 2;
     grid-column-end: 4;
     overflow: auto;
@@ -142,6 +142,7 @@ a{
 .card{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 100px;
 }
 
 .card-items{
@@ -213,6 +214,7 @@ a{
 .site{
     padding-bottom: .5em;
     border-bottom: 1px solid #b6b6b6;
+    margin-bottom: .8em;
 }
 
 .post{
