@@ -131,6 +131,7 @@ a{
     grid-template-columns: 3fr 1fr;
     grid-column-start: 2;
     grid-column-end: 4;
+    overflow: auto;
 }
 
 .activity{
